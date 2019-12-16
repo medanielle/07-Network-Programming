@@ -6,7 +6,7 @@ Write a script that runs a command (like "ls -l", it can be any command you choo
 import subprocess
 import optparse
 import sys
-import scapy.all as scapy
+#import scapy.all as scapy
 
 def my_ls():
 	print("Getting listing!")
@@ -33,8 +33,12 @@ def num_bytes(cmd):
 Write a script that runs a command to display your current directory.
 """
 
-# my_ls()
+import os
+def get_mycwd():
+	cwd = os.getcwd()
+	print(cwd)
 
+get_mycwd()
 """
 write a ping script where we get user input, and then run a ping request to that host.
 """
@@ -54,6 +58,22 @@ def my_ping():
 	
 # my_ping()
 
+
+from scapy.all import *
+
+from netaddr import IPNetwork
+
+def scan(ip):
+	arp_request = scapy.ARP(pdst=ip)
+	broadcast = scapy.Ether()
+	scapy.ls(scapy.ARP())
+
+def hydrick_scan():
+	for ip in IPNetwork('10.240.234.0/24'):
+		print('\n')
+		scan(ip)
+		
+hydrick_scan()
 """
 Create a script that will accept a single integer as a positional argument, and will print a hash symbol that amount of times.
 """

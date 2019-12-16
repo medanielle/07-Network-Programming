@@ -17,3 +17,7 @@ https://github.com/CyberTrainingUSAF/07-Network-Programming/tree/master/07-osi-l
 
 - scapy practice
 https://github.com/medanielle/07-Network-Programming/blob/master/09_NetworkingExtended/Practice/04_Modules.md
+
+
+- lab 1-2
+https://github.com/medanielle/07-Network-Programming/blob/master/03-intro-to-sockets/lab-1-2.md 

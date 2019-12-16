@@ -171,3 +171,7 @@ tuple in python ("www.python.org", 80)
 
 IANA Internet Assigned Numbers Authority
  - in charge of ip addr/ and common ports
+
+
+
+*** Test = JSON, XOR, web ***
