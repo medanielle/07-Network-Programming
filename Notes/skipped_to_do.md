@@ -21,3 +21,7 @@ https://github.com/medanielle/07-Network-Programming/blob/master/09_NetworkingEx
 
 - lab 1-2
 https://github.com/medanielle/07-Network-Programming/blob/master/03-intro-to-sockets/lab-1-2.md 
+
+- guided networking Lab
+
+https://github.com/CyberTrainingUSAF/07-Network-Programming/blob/master/09_NetworkingExtended/Practice/02_Network/Guided_labs/01_Network_Programming.md
